@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Matter More",
+  "version": "0.1.0",
+  "description": "A Chrome extension",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Matter More"
+  },
+  "permissions": []
+}
