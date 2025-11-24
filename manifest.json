@@ -6,7 +6,7 @@
   "permissions": [],
   "content_scripts": [
     {
-      "matches": ["https://web.getmatter.com/list/queue"],
+      "matches": ["https://web.getmatter.com/*"],
       "js": ["content.js"],
       "run_at": "document_start",
       "world": "MAIN"
