@@ -4,7 +4,7 @@ let dbgClonedData = {};
 // Update page title with article count
 function updateTitle(count) {
   // Remove existing count if present
-  const baseTitle = document.title.replace(/\s*\(\d+\)$/, '');
+  const baseTitle = document.title.replace(/\s*\(\d+\+?\)$/, '');
 
   document.title = `${baseTitle} (${count})`;
 }
